@@ -15,7 +15,7 @@ def home():
 def stitch():
     # URL of the audio file and path to your local video file
     audio_url = "https://piuhxhbwhkzyrufyjqsy.supabase.co/storage/v1/object/public/new/audio/audio-100qFB5.mp3"
-    video_file_path = "./video.mp4"
+    video_file_path = "./talking.mp4"
 
     # Construct the FFmpeg command
     input_video = ffmpeg.input(video_file_path)
